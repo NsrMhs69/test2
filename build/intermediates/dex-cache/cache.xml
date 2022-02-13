@@ -1,0 +1,145 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\exploded-aar\com.evernote\android-job\1.1.3\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="b203b26dafbac02627da9e0c4dd122255fe653df">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\com.evernote-android-job-1.1.3_e9967774fe4ef88d475387ef65d7345995e4ca4e.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp-ws\3.4.1\8ace66ef7002d98f633377c9e67daeeb196d8c3b\okhttp-ws-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8ace66ef7002d98f633377c9e67daeeb196d8c3b">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\okhttp-ws-3.4.1_022d324d5cb91f963fbbac16fce44b172cd11673.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-iid\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="59a16a4a42d25b2c243dd1e8aea87d06895b4a06">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-iid-9.4.0_035b21d729f491648ad7ef616fa633f04401289b.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\libs\adad-2.9.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="5c94c9e323d863a773204b89f88ab1e4ba31fd67">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\adad-2.9_e403811bda551420fab4e3a107c096c42bfed371.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\libs\Toofan_Ver2.3.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="45f6bb754fc21dc07026b7fb0a4a620530f88740">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\Toofan_Ver2.3_12c47aff1f14937e90fbf3c78a957a428e134820.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\libs\internal_impl-23.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8bd336eeae661e8311330284897ee07f8ebaa297">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.0_3dac98fd92dce6ae7756df3ee1d8e1078d1fc1bb.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\.gradle\caches\modules-2\files-2.1\com.squareup.okhttp3\okhttp\3.4.1\c7c4f9e35c2fd5900da24f9872e3971801f08ce0\okhttp-3.4.1.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c7c4f9e35c2fd5900da24f9872e3971801f08ce0">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\okhttp-3.4.1_e7bc9eb423063e0871f4440668251bf1ae2d5331.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\.gradle\caches\modules-2\files-2.1\com.squareup.okio\okio\1.9.0\f824591a0016efbaeddb8300bee54832a1398cfa\okio-1.9.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="f824591a0016efbaeddb8300bee54832a1398cfa">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\okio-1.9.0_9c53b337af3835870113ccb299129467758e61ed.jar" />
+    </item>
+    <item
+        jar="D:\Samix\android-sdk\extras\android\m2repository\com\android\support\support-annotations\25.0.0\support-annotations-25.0.0.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="a22d2cc94da87b254451fa8ed28afc30b4653773">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\support-annotations-25.0.0_5a927400bb1d04bbcd7ba1375373f517d09d6ff0.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\exploded-aar\co.ronash.android\pushe-base\1.1.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="2ef28e263a7ce4bc5ba31eb59cf3027c18d210f9">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\co.ronash.android-pushe-base-1.1.0_cfe8381963503945f00fa8cc9bb902f5d925ee3c.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\libs\VideoADList_1.2.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ed979cf65c059b7f710c8669e465d3e67be1dd69">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\VideoADList_1.2_1be9f17400edaae2873300c153bd583ea1d3d561.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\libs\Click_2.361.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="581cf8043b75b5be4371983f4164aa7e63862f95">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\Click_2.361_b0ac3c1916f965e5bacee5640d30928c8097df62.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="3dee4ce5844d39d843d503fb8fe04e51e5bfffac">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-9.4.0_76c6e1b339799dae8b7b4341957c0c0a59225d43.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\libs\clickyab.1.1.5.visitsaz.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ba10761330653411d42c073b7e076b6f710d4712">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\clickyab.1.1.5.visitsaz_0273c0b9096f63ff5d318a19d46d67d274e569a8.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\exploded-aar\net.vrallev.android\cat\1.0.5\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="c61a0369f93fb7901fde1bdae68fc71de256244c">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\net.vrallev.android-cat-1.0.5_fb4827c85e4950510be2dbc94bec81a34e335b3f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-tasks\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8a36d229011e75f0caef408e1adf0d3fd4d94e02">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-tasks-9.4.0_7de78fe27ed12e26438bb3568e3d6f4ba4e444c1.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="ece40b09e9d4d488bc270cf6af5a9af73bc1cfa3">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-9.4.0_34bb463ab48fcddf6dc01102580e113e56c7aabf.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-basement\9.4.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="618485fef3ebe12127f7622abbc9b5b39057b5c2">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-basement-9.4.0_ab365f0247466d16f1ce798aa40f7978348ade5f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\exploded-aar\com.coolerfall\android-http-download-manager\1.6.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="73464113b3fb496d70653d98ea3b951aad16dfc2">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\com.coolerfall-android-http-download-manager-1.6.0_6d89d578152de44e1f5e172e83f3f20c39a7487f.jar" />
+    </item>
+    <item
+        jar="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.0"
+        sha1="8413c27b45b7fe61dca4a98159f65e2cee215f5a">
+        <dex dex="C:\Users\Samix\Desktop\new\onlyPushe&amp;click2.36\GhayeMoshak\Monsters3\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.0_7359c062a111ce10a55fd7ef39835d38b68e1872.jar" />
+    </item>
+
+</items>

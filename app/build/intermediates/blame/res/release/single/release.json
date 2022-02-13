@@ -1,0 +1,98 @@
+[
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\mipmap-xxxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\drawable_btn_home.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\drawable\\btn_home.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xhdpi_ic_launcher.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\mipmap-xhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\drawable_btn_sound_on.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\drawable\\btn_sound_on.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_monster.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\drawable-xxhdpi\\monster.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\layout_first.xml.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\layout\\first.xml"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\layout_main.xml.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\layout\\main.xml"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_dead.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\drawable-xxhdpi\\dead.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_hole.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\drawable-xxhdpi\\hole.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\mipmap-mdpi_ic_launcher.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\mipmap-mdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\drawable_btn_again.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\drawable\\btn_again.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\layout_dialog_update.xml.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\layout\\dialog_update.xml"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_monster2.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\drawable-xxhdpi\\monster2.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\mipmap-hdpi_ic_launcher.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\mipmap-hdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\drawable_btn_play.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\drawable\\btn_play.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\layout_adivery_native_ad_layout.xml.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\layout\\adivery_native_ad_layout.xml"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\drawable_btn_rate.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\drawable\\btn_rate.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\drawable_splash2.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\drawable\\splash2.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\font_font.ttf.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\font\\font.ttf"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_game.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\drawable\\bg_game.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\drawable_bg_main.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\drawable\\bg_main.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\drawable-xxhdpi_dead2.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\drawable-xxhdpi\\dead2.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\mipmap-xxhdpi_ic_launcher.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\mipmap-xxhdpi\\ic_launcher.png"
+    },
+    {
+        "merged": "C:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\res\\merged\\release\\drawable_btn_sound_off.png.flat",
+        "source": "C:\\Elsa\\pink\\ClickMe\\project\\app\\src\\main\\res\\drawable\\btn_sound_off.png"
+    }
+]

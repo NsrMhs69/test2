@@ -1,0 +1,179 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.pink.bobClick"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="17"
+8-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="30" />
+9-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:9:5-67
+11-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:9:22-64
+12
+13    <supports-screens
+13-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:13:5-18:40
+14        android:anyDensity="true"
+14-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:14:9-34
+15        android:largeScreens="true"
+15-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:15:9-36
+16        android:normalScreens="true"
+16-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:16:9-37
+17        android:smallScreens="true"
+17-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:17:9-36
+18        android:xlargeScreens="true" />
+18-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:18:9-37
+19
+20    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+20-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:12:5-79
+20-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:12:22-76
+21
+22    <queries>
+22-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:14:5-44:15
+23        <package android:name="ir.mservices.market" />
+23-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:15:9-55
+23-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:15:18-52
+24        <package android:name="com.farsitel.bazaar" />
+24-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:16:9-55
+24-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:16:18-52
+25        <package android:name="com.android.vending" />
+25-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:17:9-55
+25-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:17:18-52
+26
+27        <intent>
+27-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:19:9-23:18
+28            <action android:name="android.intent.action.VIEW" />
+28-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:20:13-65
+28-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:20:21-62
+29
+30            <data android:scheme="myket" />
+30-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:22:13-44
+30-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:22:19-41
+31        </intent>
+32        <intent>
+32-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:19:9-23:18
+33            <action android:name="android.intent.action.VIEW" />
+33-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:20:13-65
+33-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:20:21-62
+34
+35            <data android:scheme="bazaar" />
+35-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:22:13-44
+35-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:22:19-41
+36        </intent>
+37        <intent>
+37-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:19:9-23:18
+38            <action android:name="android.intent.action.VIEW" />
+38-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:20:13-65
+38-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:20:21-62
+39
+40            <data android:scheme="market" />
+40-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:22:13-44
+40-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:22:19-41
+41        </intent>
+42        <intent>
+42-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:19:9-23:18
+43            <action android:name="android.intent.action.VIEW" />
+43-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:20:13-65
+43-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:20:21-62
+44
+45            <data android:scheme="http" />
+45-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:22:13-44
+45-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:22:19-41
+46        </intent>
+47        <intent>
+47-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:19:9-23:18
+48            <action android:name="android.intent.action.VIEW" />
+48-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:20:13-65
+48-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:20:21-62
+49
+50            <data android:scheme="https" />
+50-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:22:13-44
+50-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:22:19-41
+51        </intent>
+52    </queries>
+53
+54    <application
+54-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:20:5-46:19
+55        android:name="com.pink.bobClick.Apps"
+55-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:21:9-46
+56        android:allowBackup="true"
+56-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:22:9-35
+57        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+57-->[androidx.core:core:1.3.1] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\ae3468b444d41a56f261ecbb8448fe17\core-1.3.1\AndroidManifest.xml:24:18-86
+58        android:hardwareAccelerated="true"
+58-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:23:9-43
+59        android:icon="@mipmap/ic_launcher"
+59-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:24:9-43
+60        android:label="@string/app_name"
+60-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:25:9-41
+61        android:largeHeap="true"
+61-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:26:9-33
+62        android:theme="@style/AppTheme" >
+62-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:27:9-40
+63        <activity
+63-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:30:9-39:20
+64            android:name="com.pink.bobClick.FirstActivity"
+64-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:31:13-59
+65            android:label="@string/app_name"
+65-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:32:13-45
+66            android:screenOrientation="landscape" >
+66-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:33:13-50
+67            <intent-filter>
+67-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:34:13-38:29
+68                <action android:name="android.intent.action.MAIN" />
+68-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:35:17-69
+68-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:35:25-66
+69
+70                <category android:name="android.intent.category.LAUNCHER" />
+70-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:37:17-77
+70-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:37:27-74
+71            </intent-filter>
+72        </activity>
+73        <activity
+73-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:40:9-42:52
+74            android:name="com.pink.bobClick.Main"
+74-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:40:19-56
+75            android:label="@string/app_name"
+75-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:41:13-45
+76            android:screenOrientation="landscape" />
+76-->C:\Elsa\pink\ClickMe\project\app\src\main\AndroidManifest.xml:42:13-50
+77
+78        <meta-data
+78-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:47:9-49:36
+79            android:name="com.google.android.gms.ads.AD_MANAGER_APP"
+79-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:48:13-69
+80            android:value="true" />
+80-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:49:13-33
+81
+82        <activity
+82-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:51:9-53:55
+83            android:name="com.adivery.sdk.networks.adivery.AdActivity"
+83-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:52:13-71
+84            android:screenOrientation="unspecified" />
+84-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:53:13-52
+85
+86        <service
+86-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:55:9-58:72
+87            android:name="com.adivery.sdk.LocationJobService"
+87-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:56:13-62
+88            android:exported="false"
+88-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:57:13-37
+89            android:permission="android.permission.BIND_JOB_SERVICE" />
+89-->[com.adivery:sdk:4.2.9] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\01afe825e005dfc9fac56eb6594f1f5c\jetified-sdk-4.2.9\AndroidManifest.xml:58:13-69
+90
+91        <provider
+91-->[androidx.lifecycle:lifecycle-process:2.3.1] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\987a493bb5bcef3685521293e01400e0\jetified-lifecycle-process-2.3.1\AndroidManifest.xml:25:9-29:43
+92            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+92-->[androidx.lifecycle:lifecycle-process:2.3.1] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\987a493bb5bcef3685521293e01400e0\jetified-lifecycle-process-2.3.1\AndroidManifest.xml:26:13-79
+93            android:authorities="com.pink.bobClick.lifecycle-process"
+93-->[androidx.lifecycle:lifecycle-process:2.3.1] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\987a493bb5bcef3685521293e01400e0\jetified-lifecycle-process-2.3.1\AndroidManifest.xml:27:13-69
+94            android:exported="false"
+94-->[androidx.lifecycle:lifecycle-process:2.3.1] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\987a493bb5bcef3685521293e01400e0\jetified-lifecycle-process-2.3.1\AndroidManifest.xml:28:13-37
+95            android:multiprocess="true" />
+95-->[androidx.lifecycle:lifecycle-process:2.3.1] C:\Users\Mahsa\.gradle\caches\transforms-2\files-2.1\987a493bb5bcef3685521293e01400e0\jetified-lifecycle-process-2.3.1\AndroidManifest.xml:29:13-40
+96    </application>
+97
+98</manifest>

@@ -1,0 +1,4 @@
+#Sun Feb 13 18:38:39 IRST 2022
+base.0=C\:\\Elsa\\pink\\ClickMe\\project\\app\\build\\intermediates\\dex\\release\\mergeDexRelease\\classes.dex
+renamed.0=classes.dex
+path.0=classes.dex

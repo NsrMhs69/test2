@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">شکار عروس دریایی ( باب اسفنجی )</string>
+    <string name="btn_leaderboard">LEADERBOARD</string>
+    <string name="btn_start">شروع</string>
+    <string name="btn_start2">دوباره</string>
+    <string name="btn_exit">خروج</string>
+    <string name="btn_home">خانه</string>
+    <string name="btn_sound">باصدا</string>
+    <string name="btn_mute">بی صدا</string>
+    <string name="btn_sign_in">Google+ sign in</string>
+    <string name="btn_sign_out">Google+ sign out</string>
+    <string name="score">امتیاز:</string>
+    <string name="time">زمان:</string>
+    <string name="high_score">بیشترین امتیاز:</string>
+    <string name="complete">پایان</string>
+    <string name="appKey">58083f76-dd0a-46e1-82b0-b3382ffca5be</string>
+    <string name="nativeBanner">44c15c4e-ee8f-4a9f-81f1-4e546ec571a3</string>
+    <string name="interstitial">a3cf673c-aa25-4793-ae3d-a8f478cd2687</string>
+    <string name="appOpen">7f4f5cf5-6e00-4adc-af1a-00701e811112</string>
+    <string name="market">Myket</string><!--    Myket--><!--    PlayStore--><!--  CafeBazar-->
+    <string name="cafe_link">https://cafebazaar.ir/app/</string>
+    <string name="myket_link">https://myket.ir/app/</string>
+    <string name="updateTitle">به روز رسانی !</string>
+    <string name="ok">باشه</string>
+    <string name="comment_link">myket://comment?id=</string>
+</resources>

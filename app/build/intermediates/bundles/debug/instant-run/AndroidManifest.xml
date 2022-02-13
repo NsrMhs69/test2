@@ -1,0 +1,242 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.nooshindroid.yastashir"
+    android:versionCode="50"
+    android:versionName="50.0" >
+
+    <uses-sdk
+        android:minSdkVersion="11"
+        android:targetSdkVersion="22" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+
+    <permission
+        android:name=".permission.C2D_MESSAGE"
+        android:protectionLevel="signature" />
+
+    <uses-permission android:name=".permission.C2D_MESSAGE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <android:uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+
+    <application
+        android:name="com.android.tools.fd.runtime.BootstrapApplication"
+        android:allowBackup="true"
+        android:hardwareAccelerated="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:largeHeap="true"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.nooshindroid.yastashir.FirstActivity"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.nooshindroid.yastashir.Main"
+            android:label="@string/app_name"
+            android:screenOrientation="landscape" />
+        <activity
+            android:name="ir.adad.AdadActivity"
+            android:theme="@android:style/Theme.Dialog" />
+        <activity
+            android:name="com.appgostaran.splash.MainActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize|navigation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.appgostaran.splash.SplashAgain"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize|navigation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.appgostaran.list.MainActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize|navigation"
+            android:label="@string/app_name" />
+
+        <service android:name="com.appgostaran.noti_queue.Noti_manager" />
+        <service android:name="com.appgostaran.noti_queue.NotiService" />
+        <service android:name="com.appgostaran.noti_queue.Noti_Click_Handler" />
+
+        <activity
+            android:name="com.appasan.Video_List.MainActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize|navigation" />
+        <activity
+            android:name="com.appasan.Video_List.VideoActivity"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize|navigation" />
+        <activity
+            android:name="com.toofan.push.UpdateDesc"
+            android:configChanges="keyboard|orientation|keyboardHidden|screenSize|navigation"
+            android:theme="@android:style/Theme.Holo.Light.Dialog.NoActionBar.MinWidth" >
+        </activity>
+
+        <service android:name="com.toofan.push.Noti_Click_Handler" />
+
+        <receiver android:name="co.ronash.pushe.receiver.UpdateReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PACKAGE_REPLACED" />
+
+                <data
+                    android:path="com.nooshindroid.yastashir"
+                    android:scheme="package" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.google.android.gms.gcm.GcmReceiver"
+            android:exported="true"
+            android:permission="com.google.android.c2dm.permission.SEND" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+                <action android:name="com.google.android.c2dm.intent.REGISTRATION" />
+
+                <category android:name="com.nooshindroid.yastashir" />
+            </intent-filter>
+        </receiver>
+
+        <meta-data
+            android:name="co.ronash.pushe.token"
+            android:value="PUSHE_000" />
+
+        <service
+            android:name="com.toofan.push.MyPushListener"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="co.ronash.pushe.RECEIVE" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="co.ronash.pushe.service.GcmService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+            </intent-filter>
+        </service>
+
+        <receiver
+            android:name="co.ronash.pushe.receiver.FallbackGcmNetworkManagerReceiver"
+            android:exported="true" >
+            <intent-filter>
+                <action android:name="co.ronash.pushe.CHECK_TASKS" />
+            </intent-filter>
+        </receiver>
+ <!-- TODO: these two receive are new and should be added to manifest -->
+        <receiver android:name="co.ronash.pushe.receiver.BootAndScreenReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="co.ronash.pushe.service.ScreenStateService" >
+            <intent-filter>
+                <action android:name="co.ronash.pushe.service.ScreenStateService" />
+            </intent-filter>
+        </service>
+
+        <receiver android:name="co.ronash.pushe.receiver.PusheAppExistsReceiver" >
+            <intent-filter>
+                <action android:name="co.ronash.pushe.NOTIFY_APP" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name="co.ronash.pushe.receiver.ConnectivityReceiver" >
+            <intent-filter>
+                <action android:name="android.net.conn.CONNECTIVITY_CHANGE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name="co.ronash.pushe.activities.WebviewActivity" >
+        </activity>
+ <!-- TODO:.......................................................... -->
+        <service
+            android:name="co.ronash.pushe.service.FallbackGcmTaskRunner"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="co.ronash.pushe.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="co.ronash.pushe.task.scheduler.gcm.GcmTaskRunner"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="co.ronash.pushe.service.IntentTaskRunner"
+            android:exported="false" />
+        <service
+            android:name="co.ronash.pushe.service.InstanceIDService"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.iid.InstanceID" />
+            </intent-filter>
+        </service>
+
+        <activity
+            android:name="co.ronash.pushe.activities.PopupDialogActivity"
+            android:theme="@style/PusheTransparent" >
+        </activity>
+
+        <service
+            android:name="com.evernote.android.job.gcm.PlatformGcmService"
+            android:exported="true"
+            android:permission="com.google.android.gms.permission.BIND_NETWORK_TASK_SERVICE" >
+            <intent-filter>
+                <action android:name="com.google.android.gms.gcm.ACTION_TASK_READY" />
+            </intent-filter>
+        </service>
+        <service
+            android:name="com.evernote.android.job.v21.PlatformJobService"
+            android:exported="false"
+            android:permission="android.permission.BIND_JOB_SERVICE" />
+        <service
+            android:name="com.evernote.android.job.v14.PlatformAlarmService"
+            android:exported="false" />
+
+        <receiver
+            android:name="com.evernote.android.job.v14.PlatformAlarmReceiver"
+            android:exported="false" >
+            <intent-filter>
+
+                <!-- Keep the filter for legacy intents -->
+                <action android:name="com.evernote.android.job.v14.RUN_JOB" />
+                <action android:name="net.vrallev.android.job.v14.RUN_JOB" />
+            </intent-filter>
+        </receiver>
+        <receiver
+            android:name="com.evernote.android.job.JobBootReceiver"
+            android:exported="false" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+            </intent-filter>
+        </receiver>
+
+        <activity
+            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+            android:exported="false"
+            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+
+        <meta-data
+            android:name="com.google.android.gms.version"
+            android:value="@integer/google_play_services_version" />
+    </application>
+
+</manifest>
